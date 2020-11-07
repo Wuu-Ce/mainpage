@@ -60,7 +60,15 @@
     grid-row: 2 / 3;
     display:grid;
     justify-content: start;
-    align-content: end; 
+    align-content: end;
+}
+
+.header-contentbox1-item1
+{
+    display:block;
+    background-image: url(../images/background/17.png);
+    background-position: 0% 50%;
+    background-repeat:no-repeat;
 }
 
 .main
@@ -260,6 +268,11 @@ ul
     margin:0;
     padding: 0;
     width: 43em;
+}
+
+.center
+{
+    text-align:center;
 }
 
 a:link {text-decoration:none; color: #000000;}
